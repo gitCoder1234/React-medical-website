@@ -1,3 +1,6 @@
 # React medical website
 
-react.js
+Collaborators
+Divyansh
+Saif
+Yogesh
