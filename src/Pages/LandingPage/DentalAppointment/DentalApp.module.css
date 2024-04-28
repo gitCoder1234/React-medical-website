@@ -70,7 +70,7 @@
 
 /* ///////////////////////////////////////////////////////////
       newNavbar
-      //////////////////////////////////////////////////////////// */
+  //////////////////////////////////////////////////////////// */
 .newNavbar {
   display: flex;
   justify-content: space-between;
@@ -99,6 +99,159 @@
 /* //////////////////////////////////////////////////////////
   first section 
   ///////////////////////////////////////////////////////// */
+
+.firstSection {
+  height: 80vh;
+  padding: 20px 80px;
+}
+
+.firstSectionText {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 25px 0;
+}
+
+.firstSectionBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstSectionBox1,
+.firstSectionBox2 {
+  width: 50%;
+}
+
+.firstSectionBox2 {
+  position: relative;
+  left: 40px;
+}
+
+.firstSectionBox1 img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.firstSectionBox2 div {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.firstSectionBox2 div:nth-child(1) {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.firstSectionBox2 div:nth-child(6) {
+  font-size: 1.6rem;
+  border: 3px solid navy;
+  border-radius: 15px;
+  padding: 8px;
+  margin-top: 40px;
+  width: 35%;
+  position: relative;
+  left: 45px;
+}
+
+/* //////////////////////////////////////////////////////////
+second section 
+//////////////////////////////////////////////////////// */
+.secondSection {
+  border: 2px solid grey;
+  margin: 50px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.secondSectionText {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.secondSection form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.name,
+.number,
+.location {
+  height: 5vh;
+  border-radius: 20px;
+  border: 2px solid grey;
+  width: 20vw;
+}
+
+.secondSection form label {
+  position: relative;
+  left: 37%;
+}
+
+.secondSection form button {
+  width: 20vw;
+  height: 7vh;
+  position: relative;
+  top: 10px;
+  color: white;
+  background-color: navy;
+  border-radius: 25px;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.secondSectionLastText {
+  color: grey;
+  font-size: 0.8rem;
+  text-align: center;
+  padding-top: 25px;
+}
+
+/* ///////////////////////////////////////////////////////////
+third section 
+/////////////////////////////////////////////////////////// */
+.thirdSection {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.thirdSectionBox1 {
+  padding: 12px 40px;
+  border-right: 2px solid grey;
+  background-color: lightblue;
+  border-radius: 10px 0 0 10px;
+}
+
+.thirdSectionBox2 {
+  padding: 12px 25px;
+  border-right: 2px solid grey;
+  background-color: lightblue;
+}
+
+.thirdSectionBox3 {
+  padding: 12px 80px;
+  background-color: lightblue;
+  border-radius: 0 10px 10px 0;
+}
+
+.thirdSectionBox1 div:nth-child(1),
+.thirdSectionBox2 div:nth-child(1),
+.thirdSectionBox3 div:nth-child(1) {
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.thirdSectionBox1 div:nth-child(2),
+.thirdSectionBox2 div:nth-child(2),
+.thirdSectionBox3 div:nth-child(2) {
+  font-size: 1.3rem;
+  text-align: center;
+}
 
 /* /////////////////////////////////////////////////////////
   footer section 

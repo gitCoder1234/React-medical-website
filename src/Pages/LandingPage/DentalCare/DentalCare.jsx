@@ -71,7 +71,7 @@ function DentalCare() {
           at DEMO
         </div>
         <div>
-          <Link style={{ color: "white" }} to="/doctorConsultation">
+          <Link style={{ color: "white" }} to="/dentalApp">
             Book Appointment
           </Link>
         </div>
