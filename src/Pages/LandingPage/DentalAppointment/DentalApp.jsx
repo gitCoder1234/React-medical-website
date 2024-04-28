@@ -61,6 +61,83 @@ function DentalApp() {
         </div>
       </nav>
 
+      {/* ///////////////////////////////////////////////////////////////
+       filler section 
+      /////////////////////////////////////////////////////////// */}
+      <div className={styles.fillerSection}></div>
+
+      {/* //////////////////////////////////////////////////////
+        first section 
+       /////////////////////////////////////////////////////// */}
+      <section className={styles.firstSection}>
+        <div className={styles.firstSectionText}>Dental Care</div>
+        <div className={styles.firstSectionBox}>
+          <div className={styles.firstSectionBox1}>
+            <img src="../../../../public/girlSmile.jpeg" />
+          </div>
+
+          {/* box 2  */}
+          <div className={styles.firstSectionBox2}>
+            <div>Your Buddy For Dental Care!</div>
+            <div>🔵 End to end assitance form a dedicated Care buddy</div>
+            <div>
+              🔵 Consultation with speacialists , right diagnosis & treatment
+            </div>
+            <div>🔵 Hassle free & cashless experience</div>
+            <div>🔵 Appointment confirmation within 24 hours</div>
+
+            <div>📞 080694522818</div>
+          </div>
+        </div>
+      </section>
+
+      {/* ////////////////////////////////////////////////////////
+      second section 
+      /////////////////////////////////////////////////////////// */}
+      <section className={styles.secondSection}>
+        <div className={styles.secondSectionText}>Book Consultation</div>
+        <form>
+          <div>
+            <label htmlFor="name">Name</label>
+            <br />
+            <input type="text" className={styles.name} />
+          </div>
+          <div>
+            <label htmlFor="number">Number</label>
+            <br />
+            <input type="text" className={styles.number} />
+          </div>
+          <div>
+            <label htmlFor="location">Location</label>
+            <br />
+            <input type="text" className={styles.location} />
+          </div>
+          <button type="submit">Book Appointment</button>
+        </form>
+
+        <div className={styles.secondSectionLastText}>
+          By Proceeding To Submit, your agree to our Terms & Conditions
+        </div>
+      </section>
+
+      {/* //////////////////////////////////////////////////////////
+      third section 
+      /////////////////////////////////////////////////////////// */}
+      <section className={styles.thirdSection}>
+        <div className={styles.thirdSectionBox1}>
+          <div>500+</div>
+          <div>Dental Procedure</div>
+        </div>
+        <div className={styles.thirdSectionBox2}>
+          <div>2000+</div>
+          <div>Dental Care Centres</div>
+        </div>
+        <div className={styles.thirdSectionBox3}>
+          <div>900+</div>
+          <div>Cities</div>
+        </div>
+      </section>
+
       {/* ////////////////////////////////////////////////////
       footer section 
       ///////////////////////////////////////////////////// */}
