@@ -3,51 +3,8 @@ import { Link } from "react-router-dom";
 import styles from "./Homepage.module.css";
 
 function Homepage() {
-  const [state, setState] = useState(true);
-  const [login, setLogin] = useState(true);
-
-  function handleClick() {
-    if (state === true) setState(false);
-    else {
-      setState(true);
-    }
-  }
-
-  function handleLogin() {
-    if (login === true) setLogin(false);
-    else {
-      setLogin(true);
-    }
-  }
-
   return (
     <div>
-      {/* ////////////////////////////////////////////
-     login popup
-     /////////////////////////////////////////// */}
-
-      <div
-        className={
-          login === true
-            ? `${styles.loginPop} ${styles.hidden2}`
-            : styles.loginPop
-        }
-      >
-        <div onClick={handleLogin}>Close</div>
-        <div>Login</div>
-        <div>Enter Phone Number</div>
-
-        <form>
-          <input type="text" placeholder="+91-XXXXXXXXXX" />
-          <br />
-          <Link to="/main" className={styles.loginSubmit}>
-            Login
-          </Link>
-          <div>By signing in you agree to our</div>
-          <div>Terms and Conditions</div>
-        </form>
-      </div>
-
       {/* ////////////////////////////////////////////////// */}
       {/* navbar  */}
       {/* ////////////////////////////////////////////////// */}
