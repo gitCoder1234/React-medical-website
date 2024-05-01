@@ -5,6 +5,7 @@ import styles from "./Homepage.module.css";
 function Homepage() {
   const [state, setState] = useState(true);
   const [login, setLogin] = useState(true);
+  const [otp, setOtp] = useState(true);
 
   function handleClick() {
     if (state === true) setState(false);
@@ -17,6 +18,15 @@ function Homepage() {
     if (login === true) setLogin(false);
     else {
       setLogin(true);
+    }
+  }
+
+  function handleAfterLogin() {
+    setLogin(true);
+
+    if (otp === true) setOtp(false);
+    else {
+      setOtp(true);
     }
   }
 
@@ -40,11 +50,36 @@ function Homepage() {
         <form>
           <input type="text" placeholder="+91-XXXXXXXXXX" />
           <br />
-          <Link to="/main" className={styles.loginSubmit}>
+          <span className={styles.loginSubmit} onClick={handleAfterLogin}>
             Login
-          </Link>
+          </span>
           <div>By signing in you agree to our</div>
           <div>Terms and Conditions</div>
+        </form>
+      </div>
+
+      {/* ////////////////////////////////////////////
+     otp popup
+     /////////////////////////////////////////// */}
+
+      <div
+        className={
+          otp === true
+            ? `${styles.loginPop} ${styles.hidden2}`
+            : styles.loginPop
+        }
+      >
+        <div onClick={() => setOtp(true)}>Close</div>
+        <div>Login</div>
+        <div>Enter 4 digit OTP</div>
+
+        <form>
+          <input type="text" placeholder="XXXXXX" />
+          <br />
+          <Link to="/main" className={styles.loginSubmit}>
+            Verify
+          </Link>
+          <div>Resend OTP</div>
         </form>
       </div>
 

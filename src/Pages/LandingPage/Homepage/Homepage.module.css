@@ -139,7 +139,7 @@ filler section
 first section 
 //////////////////////////////////////////////////////////////// */
 .firstSection {
-  height: 60vh;
+  height: 80vh;
   background-image: url("../../../../public/Web_Photo_Editor.jpg");
   background-size: cover; /* Cover the entire container */
   background-position: center; /* Center the background image */
@@ -382,7 +382,7 @@ sixth section
 ////////////////////////////////////////////////////////// */
 
 .sixthSection {
-  height: 60vh;
+  height: 80vh;
   background-image: url("../../../../public/fifthBackHOme.png");
   background-size: cover; /* Cover the entire container */
   background-position: center; /* Center the background image */

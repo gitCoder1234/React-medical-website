@@ -10,7 +10,7 @@
 profile login 
 ////////////////////////////////////////////////////////////// */
 .profileLogin {
-  position: absolute;
+  position: fixed;
   z-index: 2000;
   right: 1%;
   top: 13%;
@@ -74,6 +74,11 @@ newNavbar
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
 }
 
 .navBar2 {
@@ -93,6 +98,15 @@ newNavbar
   font-size: 0.8rem;
   margin-left: 10px;
   text-align: center;
+}
+
+/* ////////////////////////////////////////////////////////////
+filler section 
+/////////////////////////////////////////////////////////////// */
+.fillerSection {
+  height: 12vh;
+  position: relative;
+  z-index: 999;
 }
 
 /* /////////////////////////////////////////////////////////////
