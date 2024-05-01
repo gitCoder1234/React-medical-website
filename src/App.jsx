@@ -68,10 +68,12 @@ import Terms from "./Pages/_FooterPages/TermsOfUse/Terms";
 import Location1 from "./Pages/_FooterPages/LocateHospital/Location1/Location1";
 import Location2 from "./Pages/_FooterPages/LocateHospital/Location2/Location2";
 import Location3 from "./Pages/_FooterPages/LocateHospital/Location3/Location3";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         {/* landing page  */}
         <Route path="/" element={<Homepage />} />
