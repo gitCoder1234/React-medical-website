@@ -11,4 +11,4 @@ export default function ScrollToTop() {
   return null;
 }
 
-//This file is created to always scroll to top whenever you go to any route . You can find this in react router documentation (then seach for scroll restoration).
+//This file is created to always scroll to top whenever you go to any route . Search this in react router documentation (in scroll restoration section ).
