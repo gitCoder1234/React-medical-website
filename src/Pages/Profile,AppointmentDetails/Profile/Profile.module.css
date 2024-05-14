@@ -1,0 +1,162 @@
+.divider {
+  width: 98%;
+  color: #000000a1;
+  border-top: 1px solid #000000;
+}
+
+.profile {
+  padding: 24px;
+}
+
+.profile .pageHeading {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 auto 8px;
+}
+
+.profile form {
+  border: 1px solid black;
+  margin: 0 24px;
+  padding: 16px;
+}
+
+.profile form label {
+  display: block;
+  color: #00000087;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 4px 0;
+}
+
+.profile form input[type="text"],
+input[type="date"] {
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  width: 220px;
+}
+
+.profile form .formHeading {
+  color: #20a0d8;
+  margin: 8px auto 8px 12px;
+}
+
+.profile form .basicInfo .basicInfoInput {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  padding-left: 12px;
+  margin: 12px auto 24px;
+}
+
+.profile form .changePassword .changePasswordInput {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  padding-left: 12px;
+  margin: 12px auto 24px;
+}
+
+.profile form .changePassword .btnContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  padding-left: 12px;
+  margin-bottom: 24px;
+}
+
+.profile form .changePassword .btnContainer button {
+  padding: 6px;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.profile form .changePassword .btnContainer button.updateBtn {
+  background-color: #0e59ff;
+  color: #ffffff;
+}
+.profile form .changePassword .btnContainer button.cancelBtn {
+  background-color: #ffffff;
+  color: #20a0d8;
+  font-weight: 700;
+}
+
+.profile form .address .addressInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding-left: 12px;
+  margin: 12px auto 24px;
+}
+
+.profile form .address .addressInput label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.profile form .address .addressInput input[type="text"] {
+  font-size: 16px;
+  font-weight: 700;
+  color: #808080;
+  padding: 8px;
+  width: 420px;
+}
+
+.profile form .address .addressInput button {
+  background-color: #0e59ff;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-left: 8px;
+}
+
+/* Enquire Now Section Start */
+.enquireNow {
+  padding: 6px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  margin: 8px 48px;
+  box-shadow: 4px 4px 4px #b2b2b2db;
+}
+
+.enquireNow img {
+  width: 60px;
+  object-fit: contain;
+}
+
+.enquireNow .para p {
+  font-weight: 700;
+  margin: 4px auto;
+}
+
+.enquireNow .para .planning {
+  color: #000000;
+  font-size: 18px;
+}
+.enquireNow .para .anyTime {
+  color: #808080;
+  font-size: 14px;
+}
+
+.enquireNow button {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #0e59ff;
+  border: 1px solid #0e59ff;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+/* Enquire Now Section End */

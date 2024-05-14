@@ -1,0 +1,337 @@
+.hidden {
+  visibility: hidden;
+}
+
+.hidden2 {
+  display: none;
+}
+
+/* ///////////////////////////////////////////////////////////////
+profile login 
+////////////////////////////////////////////////////////////// */
+.profileLogin {
+  position: fixed;
+  z-index: 2000;
+  right: 1%;
+  top: 13%;
+  border: 2px solid grey;
+  width: 25%;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.profileLogin div:nth-child(1) {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.profileLogin div:nth-child(3) {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
+
+.profileLogin div:nth-child(4) {
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.profileLogin div:nth-child(5),
+.profileLogin div:nth-child(6),
+.profileLogin div:nth-child(7),
+.profileLogin div:nth-child(8) {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  border: 2px solid grey;
+}
+
+.profileLoginText {
+  display: flex;
+  padding: 10px;
+  border-bottom: 2px solid grey;
+}
+
+.profileLoginText div:nth-child(1) {
+  font-weight: 700;
+  background-color: pink;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.profileLoginText div:nth-child(2) {
+  padding-top: 5px;
+}
+
+/* ///////////////////////////////////////////////////////////
+newNavbar
+//////////////////////////////////////////////////////////// */
+.newNavbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.navBar2 {
+  display: flex;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.navBar2Text div:nth-child(1) {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.navBar2Text div:nth-child(2) {
+  font-size: 0.8rem;
+  margin-left: 10px;
+  text-align: center;
+}
+
+/* ////////////////////////////////////////////////////////////
+filler section 
+/////////////////////////////////////////////////////////////// */
+.fillerSection {
+  height: 12vh;
+  position: relative;
+  z-index: 999;
+}
+
+/* //////////////////////////////////////////////////////////
+  first section 
+  ///////////////////////////////////////////////////////// */
+
+.firstSection {
+  height: 80vh;
+  padding: 20px 80px;
+}
+
+.firstSectionText {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 25px 0;
+}
+
+.firstSectionBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstSectionBox1,
+.firstSectionBox2 {
+  width: 50%;
+}
+
+.firstSectionBox2 {
+  position: relative;
+  left: 40px;
+}
+
+.firstSectionBox1 img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.firstSectionBox2 div {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.firstSectionBox2 div:nth-child(1) {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.firstSectionBox2 div:nth-child(6) {
+  font-size: 1.6rem;
+  border: 3px solid navy;
+  border-radius: 15px;
+  padding: 8px;
+  margin-top: 40px;
+  width: 35%;
+  position: relative;
+  left: 45px;
+}
+
+/* //////////////////////////////////////////////////////////
+second section 
+//////////////////////////////////////////////////////// */
+.secondSection {
+  border: 2px solid grey;
+  margin: 50px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.secondSectionText {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.secondSection form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.name,
+.number,
+.location {
+  height: 5vh;
+  border-radius: 20px;
+  border: 2px solid grey;
+  width: 20vw;
+}
+
+.secondSection form label {
+  position: relative;
+  left: 37%;
+}
+
+.secondSection form button {
+  width: 20vw;
+  height: 7vh;
+  position: relative;
+  top: 10px;
+  color: white;
+  background-color: navy;
+  border-radius: 25px;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.secondSectionLastText {
+  color: grey;
+  font-size: 0.8rem;
+  text-align: center;
+  padding-top: 25px;
+}
+
+/* ///////////////////////////////////////////////////////////
+third section 
+/////////////////////////////////////////////////////////// */
+.thirdSection {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.thirdSectionBox1 {
+  padding: 12px 40px;
+  border-right: 2px solid grey;
+  background-color: lightblue;
+  border-radius: 10px 0 0 10px;
+}
+
+.thirdSectionBox2 {
+  padding: 12px 25px;
+  border-right: 2px solid grey;
+  background-color: lightblue;
+}
+
+.thirdSectionBox3 {
+  padding: 12px 80px;
+  background-color: lightblue;
+  border-radius: 0 10px 10px 0;
+}
+
+.thirdSectionBox1 div:nth-child(1),
+.thirdSectionBox2 div:nth-child(1),
+.thirdSectionBox3 div:nth-child(1) {
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.thirdSectionBox1 div:nth-child(2),
+.thirdSectionBox2 div:nth-child(2),
+.thirdSectionBox3 div:nth-child(2) {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* /////////////////////////////////////////////////////////
+  footer section 
+  ////////////////////////////////////////////////////////// */
+
+.footerSection {
+  height: 40vh;
+  background-image: url("../../../../public/footerImage.jpg");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 5%;
+  padding-top: 10%;
+}
+
+.footerOne {
+  padding-top: 7%;
+}
+
+.footerThree,
+.footerFour {
+  padding-top: 2%;
+}
+
+.footerOne div:nth-child(1),
+.footerTwo div:nth-child(1),
+.footerThree div:nth-child(1),
+.footerFour div:nth-child(1) {
+  color: green;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footerOne div:nth-child(2) {
+  background-image: linear-gradient(90deg, red, yellow);
+  -webkit-background-clip: text; /* For Webkit-based browsers */
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+.footerOne div,
+.footerTwo div,
+.footerThree div,
+.footerFour div {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #31363f;
+  margin-bottom: 15px;
+}
+
+.footerFour div:nth-child(2) {
+  text-align: center;
+}
+
+.footerFour div:nth-child(2) img {
+  margin: 5px;
+}
+
+.footerFour div:nth-child(3),
+.footerFour div:nth-child(4) {
+  text-align: center;
+  background-color: #065550;
+  border-radius: 25px;
+  width: 80%;
+  padding: 2px 0;
+  color: white;
+  margin-left: 10%;
+}

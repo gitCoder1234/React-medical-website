@@ -1,0 +1,338 @@
+/* Eye Surgery Section Start */
+.eyeSurgeryContainer {
+  background-color: #a6e4f8;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eyeSurgeryContainer .eyeImg {
+  width: 120px;
+  height: 80px;
+}
+
+.eyeSurgeryContainer .eyeImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.eyeSurgeryContainer h1 {
+  color: #5a25f3;
+}
+/* Eye Surgery Section End */
+
+/* Cataract Details Section Start */
+.cataractDetailsContainer {
+  background: rgb(203, 241, 253);
+  background: linear-gradient(
+    180deg,
+    rgba(203, 241, 253, 1) 18%,
+    rgba(222, 238, 249, 1) 53%,
+    rgba(237, 236, 245, 1) 84%
+  );
+  padding: 24px;
+}
+
+/* What is Cataract Section Start */
+.cataractDetailsContainer .whatCataract {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+}
+
+.cataractDetailsContainer .whatCataract .imgContainer {
+  width: 40%;
+}
+
+.cataractDetailsContainer .whatCataract .imgContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.cataractDetailsContainer .whatCataract .descContainer {
+  width: 60%;
+}
+
+.cataractDetailsContainer .whatCataract .descContainer h4 {
+  text-align: center;
+  color: #166c87;
+  font-size: 24px;
+}
+
+.cataractDetailsContainer .whatCataract .descContainer p {
+  font-size: 18px;
+  text-align: justify;
+}
+/* What is Cataract Section End */
+
+/* Types of Cataract Section Start */
+.cataractDetailsContainer .typeContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+}
+
+.cataractDetailsContainer .typeContainer .imgContainer {
+  width: 40%;
+}
+
+.cataractDetailsContainer .typeContainer .imgContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.cataractDetailsContainer .typeContainer .descContainer {
+  width: 60%;
+}
+
+.cataractDetailsContainer .typeContainer .descContainer h4 {
+  text-align: center;
+  color: #d454a1;
+  font-size: 24px;
+}
+
+.cataractDetailsContainer .typeContainer .descContainer p {
+  font-size: 18px;
+  text-align: justify;
+}
+/* Types of Cataract Section End */
+
+/* Diagnosis of Cataract Section Start */
+.cataractDetailsContainer .disgnosisContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+}
+
+.cataractDetailsContainer .disgnosisContainer .imgContainer {
+  width: 40%;
+}
+
+.cataractDetailsContainer .disgnosisContainer .imgContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.cataractDetailsContainer .disgnosisContainer .descContainer {
+  width: 60%;
+}
+
+.cataractDetailsContainer .disgnosisContainer .descContainer h4 {
+  text-align: center;
+  color: #f50000;
+  font-size: 24px;
+}
+
+.cataractDetailsContainer .disgnosisContainer .descContainer p {
+  font-size: 18px;
+  text-align: justify;
+}
+/* Diagnosis of Cataract Section End */
+/* Cataract Details Section End */
+
+/* Breaker Section Start */
+.breaker {
+  background-color: #514644;
+  height: 60px;
+}
+/* Breaker Section End */
+
+/* Causes and Symptoms Section Start */
+.causesSymptoms {
+  background-color: #9adaf6ab;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+  padding: 8px 32px 12px;
+}
+
+.causesSymptoms .bothDesc {
+  margin: 2px 32px;
+}
+
+.causesSymptoms .bothDesc h4 {
+  color: #8b008b;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.causesSymptoms .bothDesc ul {
+  padding: 0;
+}
+
+.causesSymptoms .bothDesc ul li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+/* Causes and Symptoms Section End */
+
+/* Why you choose us Section Start */
+.whyChooseUsContainer {
+  height: 620px;
+  background: rgb(253, 236, 240);
+  background: linear-gradient(
+    96deg,
+    rgba(253, 236, 240, 1) 0%,
+    rgba(254, 238, 241, 1) 50%,
+    rgba(247, 239, 244, 1) 100%
+  );
+  position: relative;
+  padding: 24px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.whyChooseUsContainer .bgImg {
+  height: 55%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.whyChooseUsContainer .detailsContainer {
+  position: absolute;
+  z-index: 1;
+}
+
+.whyChooseUsContainer .detailsContainer h1 {
+  color: #ffffff;
+  margin-top: 36px;
+  text-align: center;
+}
+
+.whyChooseUsContainer .detailsContainer .itemsContainerRow1 {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.whyChooseUsContainer .detailsContainer .itemsContainerRow1 .itemDetail {
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  padding: 12px 8px;
+  margin: auto;
+}
+
+.whyChooseUsContainer .detailsContainer .itemsContainerRow1 .itemDetail img {
+  width: 80%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.whyChooseUsContainer .detailsContainer .itemsContainerRow1 .itemDetail p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.whyChooseUsContainer
+  .detailsContainer
+  .itemsContainerRow1
+  .itemDetail:nth-child(1) {
+  background-color: #f9f3cc;
+}
+.whyChooseUsContainer
+  .detailsContainer
+  .itemsContainerRow1
+  .itemDetail:nth-child(2) {
+  background-color: #f8ede3;
+}
+.whyChooseUsContainer
+  .detailsContainer
+  .itemsContainerRow1
+  .itemDetail:nth-child(3) {
+  background-color: #cdf5fd;
+}
+
+.whyChooseUsContainer .detailsContainer .itemsContainerRow2 {
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.whyChooseUsContainer .detailsContainer .itemsContainerRow2 .itemDetail {
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  padding: 12px 8px;
+  margin: auto;
+}
+
+.whyChooseUsContainer .detailsContainer .itemsContainerRow2 .itemDetail img {
+  width: 80%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.whyChooseUsContainer .detailsContainer .itemsContainerRow2 .itemDetail p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.whyChooseUsContainer
+  .detailsContainer
+  .itemsContainerRow2
+  .itemDetail:nth-child(1) {
+  background-color: #f0d080;
+}
+.whyChooseUsContainer
+  .detailsContainer
+  .itemsContainerRow2
+  .itemDetail:nth-child(2) {
+  background-color: #eed3d9;
+}
+/* Why you choose us Section End */
+
+/* Questions Section Start */
+.questionsContainer {
+  background-color: #9adaf6;
+  padding: 20px 24px;
+}
+
+.questionsContainer .qustHeading {
+  text-align: center;
+}
+
+.bookIcon {
+  margin-right: 12px;
+  font-size: 24px;
+}
+
+.questionsContainer h3 {
+  width: 90%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  margin: 24px auto;
+}
+
+.questionsContainer .f1Question {
+  background-color: #d8cfad8a;
+}
+
+.questionsContainer .s2Question {
+  background-color: #d9d9d9;
+  color: #101363;
+}
+
+.questionsContainer .t3Question {
+  background-color: #dcd6c6;
+  color: #6d2727;
+}
+/* Questions Section End */

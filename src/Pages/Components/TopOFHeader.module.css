@@ -1,0 +1,54 @@
+/* Header Section Start */
+.navCataract {
+  height: 90px;
+  padding: 0 16px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navCataract .logo {
+  width: 160px;
+  height: 40px;
+}
+
+.navCataract .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.navCataract .rightSide {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #000000;
+  height: 50px;
+  width: 220px;
+  padding: 6px 8px;
+  border-radius: 18px;
+  box-shadow: 4px 4px 4px #00000040;
+  background-color: #ffffff;
+}
+
+.navCataract .rightSide .avtar {
+  width: 40px;
+  height: 40px;
+}
+
+.navCataract .rightSide .avtar img {
+  width: 100%;
+  height: 100%;
+}
+
+.navCataract .rightSide .profileDetails h4 {
+  margin: 16px 0 4px;
+  font-size: 16px;
+}
+
+.navCataract .rightSide .profileDetails p {
+  margin: 4px 0 16px;
+  font-size: 12px;
+}
+/* Header Section End */

@@ -1,0 +1,38 @@
+.banner {
+  background-image: url("./JobsBanner.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 100vw 100vh;
+  background-position: 50% 25%;
+  height: 480px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  color: #ffffff;
+  font-size: 48px;
+}
+
+.banner button {
+  color: #ffffff;
+  background-color: #ababab;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.careersWelcome {
+  padding: 8px 60px;
+  background-color: #f0efef;
+}
+
+.careersWelcome h3 {
+  text-align: justify;
+}
