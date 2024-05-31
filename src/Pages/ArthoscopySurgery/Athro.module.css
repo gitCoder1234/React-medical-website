@@ -1,0 +1,903 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jomolhari&display=swap');
+
+
+.artroLogo {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: inline-flex;
+    /* background-color: red; */
+}
+
+.artroLogo img {
+    width: 172px;
+    height: 50px;
+    /* margin-top: 20px; */
+    margin-left: 40px;
+    display: inline-flex;
+}
+
+
+.arthodemopart {
+    /* background-color: red; */
+    width: 335px;
+    height: 76px;
+    border-radius: 20px;
+    border: 1px solid black;
+    float: right;
+    margin-top:30px;
+    margin-right: 30px;
+    background-color: white;
+}
+
+.arthodemopart span {
+    float: right;
+    font-size: 1.7rem;
+    margin-top: -50px;
+
+    margin-right: -222px;
+    /* margin-right: 0px; */
+}
+
+.arthodemopart img {
+    width: 52px;
+    height: 51px;
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+#arthodemoparttext1 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    float: right;
+    margin-right: 70px;
+    margin-top: 15px;
+    display: inline-flex;
+}
+
+#arthodemoparttext2 {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    float: right;
+    margin-right: 120px;
+    margin-top: -20px;
+    /* display: inline-flex; */
+
+}
+
+
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: white;
+}
+
+.thirdNavbar {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    z-index: 1000;
+    background-color: #A6E4F8;
+    height: 120px;
+}
+
+.thirdNavbar div {
+    background-color: #31C48D47;
+    color: rgb(22, 21, 21);
+    padding: 10px 40px;
+    margin: 2px;
+    margin-top: 30px;
+    border-radius: 2px;
+    height: 30px;
+}
+
+
+
+
+
+/* *************** */
+/* *************** */
+
+.arthonavigation 
+{
+    margin-top: 160px;
+    /* background-color: red; */
+    height: 50px;
+    width: 350px;
+    display: flex;
+    /* display: inline-flex; */
+}
+
+#arthonavigationtext0 
+{
+    color: #0B5345;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.31px;
+    margin-left: 60px;
+}
+
+#arthonavigationicon {
+    font-size: 2rem;
+    /* line-height: 36.31px; */
+    padding-top: 5px;
+    line-height: 40px;
+}
+
+#arthonavigationtext1 {
+    margin-left: 5px;
+    font-size: 1.5rem;
+    line-height: 36.31px;
+    color: #808080;
+}
+
+.arthonavigation a {
+    text-decoration: none;
+}
+
+
+.navappointment {
+    background: #24CCD6;
+    height: 65px;
+    width: 315px;
+    float: right;
+    margin-top: -50px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    padding-top: 0px;
+    border-radius: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+#navappointmenttext1 {
+    margin-top: 18px;
+    padding-left: 20px;
+    font-size: 1.3rem;
+}
+
+#navappointmenticon {
+    background-color: white;
+    height: 25px;
+    width: 32px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-top: 18px;
+    border-radius: 100px;
+    font-size: 1.4rem;
+}
+
+
+
+.athrocontent1 {
+    width: 100%;
+    height: 150px;
+    background-color: #A7DFF8;
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    /* margin-top: 80px; */
+}
+
+.athrocontent1 p {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 35.09px;
+}
+
+
+.athrocontent1 img {
+    width: 108px;
+    height: 108px;
+    padding-top: 20px;
+}
+
+
+.athrocontent2 {
+    width: 100%;
+    height: 605px;
+    background-image: url("../../../public/artho-img4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 70%;
+    z-index: -10;
+
+    margin-top: -51px;
+}
+
+
+#athrocontent2text0 {
+    font-size: 3.2rem;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    padding-top: 45px;
+    z-index: 100;
+    /* opacity: 200%; */
+
+}
+
+#athrocontent2text1,
+#athrocontent2text2,
+#athrocontent2text3 {
+    z-index: 100;
+
+    font-family: Inter;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 35.1px;
+    /* text-align: left; */
+    color: black;
+    padding: 0px 80px;
+}
+
+
+#athrocontent3text1 {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 54.46px;
+    /* text-align: ; */
+    margin-left: 80px;
+
+}
+
+
+#athrocontent3text2 {
+    font-family: Inter;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 35.1px;
+    /* text-align: left; */
+    width: 47%;
+    margin-left: 80px;
+    float: left;
+}
+
+
+.athrocontent3 img {
+    width: 529px;
+    height: 466px;
+
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-top: -70px;
+
+}
+
+.athrocontent4 {
+    background: #C8E3CA;
+    height: 650px;
+    width: 92%;
+    margin-left: 80px;
+}
+
+
+
+
+#athrocontent4text1 {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 20.46px;
+    text-align: left;
+    color: #35560A;
+    padding-top: 45px;
+    margin-left: 40px;
+}
+
+
+#athrocontent4text2 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 15.63px;
+    text-align: left;
+    color: black;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+}
+
+.athrocontent4part1 {
+    /* display: flex; */
+    margin-left: 42px;
+    margin-top: 20px;
+    height: 15px;
+}
+
+.athrocontent4part1 img {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    display: inline-flex;
+}
+
+.athrocontent4part1 p {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 15.63px;
+    color: black;
+    display: inline-flex;
+
+}
+
+#athrocontent4text3,
+#athrocontent4text4 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    text-align: justify;
+    margin-left: 47px;
+    padding-top: 40px;
+
+}
+
+#athrocontent4text4 {
+    padding: 15px;
+    padding-left: 5px;
+    width: 84%;
+    /* padding-top: 10px; */
+}
+
+
+#athrocontent5text1 {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50.46px;
+    text-align: center;
+    color: black;
+}
+
+#athrocontent5text2 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    /* text-align: left; */
+    margin-left: 200px;
+
+
+}
+
+.athrocontent2part1,
+.athrocontent2part2,
+.athrocontent2part5 {
+    margin-left: 180px;
+}
+
+
+.athrocontent2part1 img,
+.athrocontent2part2 img,
+.athrocontent2part5 img {
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    padding-right: 5px;
+}
+
+
+#athrocontent2part1text1,
+#athrocontent2part1text2,
+#athrocontent2part2text1,
+#athrocontent2part2text2,
+#athrocontent2part5text1 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 8.63px;
+    /* text-align: left; */
+    color: #4646f1;
+    display: inline-flex;
+}
+
+#athrocontent2part1text2,
+#athrocontent2part2text2,
+#athrocontent2part5text1 {
+    color: black;
+}
+
+
+.athrocontent2part3 div,
+.athrocontent2part4 div,
+.athrocontent6part1 div {
+    width: 15px;
+    height: 15px;
+    margin-left: 250px;
+    border: 2px solid #1B71F4;
+    border-radius: 50%;
+    display: inline-flex;
+
+}
+
+.athrocontent6part1 div {
+
+    margin-left: 150px;
+}
+
+.athrocontent2part3 p,
+.athrocontent2part4 p,
+#arthocontent5part6 {
+    padding-left: 8px;
+    width: 50%;
+
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.63px;
+    /* text-align: left; */
+    display: inline-flex;
+}
+
+.athrocontent2part4 p {
+    width: 55%;
+}
+
+#arthocontent5part6 {
+    margin-left: 170px;
+}
+
+
+#arthocontent6text1 {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 54.46px;
+    /* text-align: left; */
+    color: black;
+    margin-left: 150px;
+
+}
+
+
+#arthocontent6text2 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    /* text-align: left; */
+    width: 50%;
+    margin-left: 150px;
+}
+
+
+#arthocontent6text3 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    text-align: left;
+    margin-left: 150px;
+    color: #A95417;
+    /* display: inline-flex; */
+    float: left;
+    /* background-color..: red; */
+}
+
+
+
+.athrocontent6part1 p {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.63px;
+    /* text-align: left; */
+    margin-left: 8px;
+    display: inline-flex;
+}
+
+.arthocontent6part {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 150px; */
+    float: left;
+    width: 50%;
+}
+
+
+.athrocontent6part1 {
+    width: 100%;
+
+}
+
+
+.arthocontent6 img {
+    width: 415px;
+    height: 529px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -300px;
+}
+
+
+
+
+
+.arthocontent7 {
+    margin-top: 45px;
+    margin-right: 80px;
+    height: 450px;
+    width: 82%;
+    /* background-color: red; */
+    float: right;
+    padding-left: 95px;
+}
+
+
+
+.arthocontent7:hover {
+    border: 2px solid black;
+}
+
+#arthocontent7text1 {
+    font-family: Farro;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    /* text-align: left; */
+
+}
+
+#arthocontent7text2,
+#arthocontent7text3 {
+    height: 50px;
+    width: 44%;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 50px;
+
+    box-shadow: 0px 8px 5px #00000060;
+
+}
+
+#arthocontent7text3 {
+
+    margin-left: 35px;
+}
+
+#arthocontent7text4 {
+    height: 50px;
+    width: 92%;
+
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 70px;
+    margin-left: 5px;
+
+    box-shadow: 0px 8px 5px #00000060;
+
+}
+
+
+#arthocontent7text5 {
+    width: 370px;
+    margin-top: 50px;
+
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 14.15px;
+    color: black;
+
+    /* display: inline-flex; */
+
+}
+
+#arthocontent7text6 {
+    color: blue;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 16.15px;
+
+    display: inline-flex;
+}
+
+
+.arthocontent7 button {
+    height: 45px;
+    width: 220px;
+    background-color: #2420D8;
+    float: right;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    margin-top: -25px;
+    margin-right: 120px;
+    border-radius: 25px;
+
+}
+
+.arthocontent7 button :hover {
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+
+.arthocontent8 {
+    margin-top: 850px;
+    width: 100%;
+    height: 450px;
+    background: #56A1B8AD;
+    padding-top: 10px;
+}
+
+#arthocontent8text1 {
+    font-family: Farro;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+
+}
+
+
+.arthocontent8part1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.arthocontent8part1content1,
+.arthocontent8part1content2,
+.arthocontent8part1content3 {
+    width: 442px;
+    height: 282px;
+
+    border-radius: 20px;
+    background-color: white;
+    /* position: relative; */
+}
+
+
+.arthocontent8part1content1 img,
+.arthocontent8part1content2 img,
+.arthocontent8part1content3 img {
+    margin-left: 25px;
+    margin-top: 25px;
+    display: inline-flex;
+}
+
+
+#arthocontent8part1content1text1,
+#arthocontent8part1content2text1,
+#arthocontent8part1content3text1 {
+    font-family: Farro;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 25px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+
+#arthocontent8part1content2text1,
+#arthocontent8part1content3text1 {
+    margin-right: 100px;
+}
+
+
+#arthocontent8part1content1text2,
+#arthocontent8part1content2text2,
+#arthocontent8part1content3text2 {
+    float: right;
+    font-family: Farro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+
+    margin-right: 120px;
+    margin-top: -80px;
+}
+
+#arthocontent8part1content1text2 {
+    margin-right: 80px;
+    margin-top: -60px;
+}
+
+#arthocontent8part1content2text2 {
+    margin-right: 140px;
+    margin-top: -60px;
+
+}
+
+#arthocontent8part1content3text2 {
+    margin-top: -60px;
+}
+
+#arthocontent8part1content1text3,
+#arthocontent8part1content2text3,
+#arthocontent8part1content3text3 {
+    float: right;
+    font-family: Farro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-right: 90px;
+    margin-top: -10px;
+}
+
+#arthocontent8part1content2text3 {
+    margin-right: 120px;
+}
+
+#arthocontent8part1content3text3 {
+    margin-right: 100px;
+
+}
+
+.arthocontent8part1content1 button,
+.arthocontent8part1content2 button,
+.arthocontent8part1content3 button {
+    width: 320px;
+    height: 47px;
+
+    border-radius: 12px;
+    background-color: #5350EA;
+
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+
+
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.arthocontent8part1content2 img {
+    height: 130px;
+    width: 135px;
+}
+
+
+.arthocontent9 {
+    background-color: #F5DCDC;
+    height: 900px;
+}
+
+#arthocontent9text1 {
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60.51px;
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+    margin-top: 0px;
+}
+
+.arthocontent9part1,
+.arthocontent9part2,
+.arthocontent9part3,
+.arthocontent9part4 {
+    background-color: #7A6F488A;
+    width: 978px;
+    height: 105px;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 270px;
+    padding-top: 22px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-bottom: 60px;
+    padding-left: 20px;
+}
+
+.arthocontent9part2 {
+    background-color: #D9D9D9;
+}
+
+.arthocontent9part3 {
+    background-color: #DCD6C6;
+}
+
+.arthocontent9part4 {
+    background-color: #90B5BE;
+}
+
+
+
+.arthocontent9part1 img,
+.arthocontent9part2 img,
+.arthocontent9part3 img,
+.arthocontent9part4 img {
+    width: 90px;
+    height: 80px;
+    padding-right: 15px;
+}
+
+
+
+.arthocontent9part1 p,
+.arthocontent9part2 p,
+.arthocontent9part3 p,
+.arthocontent9part4 p {
+    color: black;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 20.04px;
+    /* text-align: le; */
+
+}
+
+
+
+.footerSection {
+    height: 40vh;
+    width: 100%;
+    background-image: url("../../../../public/footerImage.jpg");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5%;
+    padding-top: 10%;
+}
+
+.footerOne {
+    padding-top: 7%;
+}
+
+.footerThree,
+.footerFour {
+    padding-top: 2%;
+}
+
+.footerOne div:nth-child(1),
+.footerTwo div:nth-child(1),
+.footerThree div:nth-child(1),
+.footerFour div:nth-child(1) {
+    color: green;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footerOne div:nth-child(2) {
+    background-image: linear-gradient(90deg, red, yellow);
+    -webkit-background-clip: text;
+    /* For Webkit-based browsers */
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+.footerOne div,
+.footerTwo div,
+.footerThree div,
+.footerFour div {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #31363f;
+    margin-bottom: 15px;
+}
+
+.footerFour div:nth-child(2) {
+    text-align: center;
+}
+
+.footerFour div:nth-child(2) img {
+    margin: 5px;
+}
+
+.footerFour div:nth-child(3),
+.footerFour div:nth-child(4) {
+    text-align: center;
+    background-color: #065550;
+    border-radius: 25px;
+    width: 80%;
+    padding: 2px 0;
+    color: white;
+    margin-left: 10%;
+}
