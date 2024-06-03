@@ -1,0 +1,45 @@
+.jobDesc {
+  padding: 24px;
+}
+
+.jobDesc .jobTitle {
+  text-align: center;
+  color: #1b71f4;
+}
+
+.jobDesc .locationTiming {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px #00000040;
+  padding: 6px 8px;
+}
+
+.jobDesc ul li {
+  list-style-type: disc;
+  color: #3c476a;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 12px auto;
+}
+
+.jobDesc ul li::marker {
+  font-size: 18px;
+}
+
+.jobDesc button {
+  display: block;
+  width: 90px;
+  margin: 0 auto;
+  margin-top: 16px;
+  background-color: #3c476a;
+  border: none;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 4px #00000040;
+  cursor: pointer;
+}

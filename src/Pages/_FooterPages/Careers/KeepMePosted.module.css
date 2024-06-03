@@ -1,0 +1,46 @@
+.keepMePosted {
+  background-color: #031f5e4d;
+  height: 220px;
+  padding: 24px;
+}
+
+.keepMePosted h3 {
+  color: #20a0d8;
+  text-align: center;
+}
+
+.keepMePosted .inputField {
+  background-color: #ffffff;
+  text-align: center;
+  width: 400px;
+  margin: 36px auto;
+  border: 1px solid #ffffff;
+  padding: 4px;
+  border-radius: 12px;
+}
+
+.keepMePosted .inputField form input[type="email"] {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 6px 12px;
+}
+
+.keepMePosted .inputField form input[type="email"]:focus {
+  border: none;
+  outline: none;
+}
+.keepMePosted .inputField form input[type="email"]::placeholder {
+  font-weight: 100;
+}
+
+.keepMePosted .inputField form button {
+  border: none;
+  outline: none;
+  border-left: 1px solid #000000;
+  background-color: transparent;
+  color: #20a0d8;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}

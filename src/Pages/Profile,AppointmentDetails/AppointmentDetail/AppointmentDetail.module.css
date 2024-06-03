@@ -1,0 +1,215 @@
+.divider {
+  width: 98%;
+  color: #000000a1;
+  border-top: 1px solid #f0efef;
+}
+
+.appointment {
+  padding: 28px;
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+}
+
+.appointment .locationDoctor {
+  padding: 16px 12px;
+  width: 58%;
+  height: 360px;
+  box-shadow: 2px 2px 30px 1px #0000001a;
+}
+
+.appointment .locationDoctor h1 {
+  color: #24b354;
+  margin: 4px auto 4px 12px;
+  font-weight: 700;
+}
+
+.appointment .locationDoctor h4 {
+  color: #24b354;
+  margin: 4px auto 4px 12px;
+  font-weight: 500;
+}
+
+.appointment .locationDoctor .location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.appointment .locationDoctor .location .locationDetails p {
+  margin: 6px auto;
+  font-size: 14px;
+}
+
+.appointment .locationDoctor .location .locationDetails .center {
+  color: #878484;
+}
+
+.appointment .locationDoctor .location .locationDetails .clinic {
+  color: #000000;
+  font-weight: 700;
+}
+
+.appointment .locationDoctor .location .locationDetails .actualLocation {
+  color: #00000096;
+  font-weight: 400;
+}
+
+.appointment .locationDoctor .location .locationDetails .sample {
+  background-color: #ccfed1;
+  color: #24b354;
+  text-align: center;
+  padding: 2px 4px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.appointment .locationDoctor .location button {
+  background-color: transparent;
+  border: 2px solid #0e59ff;
+  color: #0e59ff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.appointment .bookDoctor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.appointment .bookDoctor p {
+  font-size: 14px;
+  margin: 4px;
+  padding: 2px;
+  font-weight: 600;
+}
+
+.appointment .bookDoctor .bookHeading {
+  color: #6c6a6a;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.appointment .dateTime {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 4px 12px;
+}
+
+.appointment .dateTime .dateTimeDetails p {
+  margin: 4px;
+  padding: 4px;
+  font-size: 14px;
+  margin: 4px;
+  padding: 2px;
+  font-weight: 600;
+}
+
+.appointment .dateTime .dateTimeDetails .dateTimeHeading {
+  color: #6c6a6a;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.appointment .dateTime button {
+  background-color: transparent;
+  border: 2px solid #0e59ff;
+  color: #0e59ff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.appointment .rightSide .pricingDetails {
+  padding: 16px 12px;
+  width: 75%;
+  height: 210px;
+  box-shadow: 2px 0 30px 1px #0000001a;
+  margin: auto;
+}
+
+.appointment .rightSide .pricingDetails h3.headingPrice {
+  color: #000000c2;
+  margin: 4px;
+  font-weight: 700;
+}
+
+.appointment .rightSide .pricingDetails .testPackages {
+  color: #00000099;
+  font-weight: 600;
+}
+
+.appointment .rightSide .pricingDetails table {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.appointment .rightSide .pricingDetails table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointment .rightSide .pricingDetails table tr td {
+  padding: 4px 2px;
+  color: #000000b8;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.appointment .rightSide .totalAmount {
+  background-color: #d9d9d97d;
+  padding: 4px 12px;
+  width: 75%;
+  height: 50px;
+  box-shadow: 0 2px 30px 1px #0000001a;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointment .rightSide .helpChat {
+  padding: 4px 12px;
+  width: 75%;
+  height: 80px;
+  box-shadow: 2px 2px 30px 1px #0000001a;
+  margin: 16px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointment .rightSide .helpChat .userIcon {
+  font-size: 36px;
+  color: #1b71f4;
+}
+
+.appointment .rightSide .helpChat .details {
+  padding: 4px 8px;
+}
+
+.appointment .rightSide .helpChat .details p {
+  margin: 4px auto;
+  font-size: 14px;
+}
+
+.appointment .rightSide .helpChat button {
+  background-color: transparent;
+  border: 2px solid #0e59ff;
+  color: #0e59ff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.previousHeading {
+  margin: 0 auto;
+  text-align: center;
+  color: #24b354;
+  font-weight: 800;
+}
