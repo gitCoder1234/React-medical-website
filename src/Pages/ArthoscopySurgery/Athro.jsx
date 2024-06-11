@@ -2,6 +2,7 @@ import styles from "./Athro.module.css";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
 import { PiGreaterThanBold } from "react-icons/pi";
+import { useState,useRef } from "react";
 
 import image1 from "../../../public/logo.png";
 import image2 from "../../../public/artho-img1.png";
@@ -15,9 +16,31 @@ import image7 from "../../../public/img-7.png";
 import image8 from "../../../public/img-8.png";
 import image9 from "../../../public/profileLogo.png";
 
+import image14 from "../../../public/overview-img11.png";
+import image15 from "../../../public/myacc-img1.png";
+import image16 from "../../../public/myacc-img2.png";
+import image17 from "../../../public/myacc-img3.png";
+import image18 from "../../../public/myacc-img4.png";
+
+
+
+import { TiTick } from "react-icons/ti";
 import { FaChevronDown } from "react-icons/fa";
 
 function Athro() {
+
+  const [myaccount, setmyaccount] = useState(false);
+  const appointmentdiv = useRef(null);
+
+
+
+  const toggleaccount = () => {
+    setmyaccount(!myaccount);
+  };
+
+  const scrollTOapponitment =()=>{
+   appointmentdiv.current.scrollIntoView({behaviour:'smooth'});
+  }
 
   return (
     <div>
@@ -31,9 +54,78 @@ function Athro() {
         <p id={styles.arthodemoparttext1}>My Demo Benefits</p>
         <p id={styles.arthodemoparttext2}>Personal Account</p>
       
-        <span><FaChevronDown /> </span> 
+        <span 
+        onClick={toggleaccount}
+        ><FaChevronDown /> </span> 
 
       </div>
+
+      {myaccount && (
+        <div className={styles.account}>
+          <p id={styles.accounttext1}>Switch Benefits</p>
+
+          <div className={styles.accountpart1}>
+            <p id={styles.accountpart1text1}>D</p>
+            <p id={styles.accountpart1text2}>My Demo Benefits</p>
+            <p id={styles.accountpart1text3}>Personal Account</p>
+
+            <span>
+              <TiTick />
+            </span>
+          </div>
+
+          <p id={styles.accountline}></p>
+
+          <p id={styles.accounttext2}>Account</p>
+
+          <div className={styles.accountpart2}>
+            <p id={styles.accountpart2text1}>Link your </p>
+            <p id={styles.accountpart2text2}>Corporate and </p>
+            <p id={styles.accountpart2text3}> Insurance accounts </p>
+            <img src={image14} alt="" />
+          </div>
+
+          <div className={styles.accountpart3}>
+            <img src={image15} alt="" />
+            <p>Track Appointment</p>
+            <span>
+              <FaChevronDown />
+            </span>
+          </div>
+
+          <div className={styles.accountpart4}>
+            <img src={image16} alt="" />
+            <p>All Transaction</p>
+            <span>
+              <FaChevronDown />
+            </span>
+          </div>
+
+          <div className={styles.accountpart5}>
+            <img src={image17} alt="" />
+            <p>Profile</p>
+            <span>
+              <FaChevronDown />
+            </span>
+          </div>
+          <div className={styles.accountpart6}>
+            <img src={image15} alt="" />
+            <p>Sign Out</p>
+            <span>
+              <FaChevronDown />
+            </span>
+          </div>
+        </div>
+      )}
+
+
+      {myaccount &&(
+        <div 
+        className={styles.arthooverlay}
+        onClick={toggleaccount}></div>
+      )}
+
+
 
       <nav className={styles.navbar}>
         <div className={styles.thirdNavbar}>
@@ -63,9 +155,9 @@ function Athro() {
 
  
 
-      <div className={styles.navappointment}>
-        <p id={styles.navappointmenttext1}>BOOK APPOINTMENT </p>
-        <p id={styles.navappointmenticon}>
+      <div className={styles.arthoappointment} onClick={scrollTOapponitment}>
+        <p id={styles.arthoappointmenttext1}>BOOK APPOINTMENT </p>
+        <p id={styles.arthoappointmenticon}>
           <FaArrowRight />
         </p>{" "}
       </div> 
@@ -298,7 +390,7 @@ function Athro() {
         <img src={image5} alt="" />
       </div>
 
-      <div className={styles.arthocontent7}>
+      <div className={styles.arthocontent7} ref={appointmentdiv}>
         <p id={styles.arthocontent7text1}>Book free consultation</p>
 
         <input type="text" id={styles.arthocontent7text2} />

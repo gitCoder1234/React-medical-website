@@ -15,12 +15,21 @@ import image6 from "../../../public/kid-6.png";
 import image7 from "../../../public/kid-7.png";
 import image8 from "../../../public/kid-8.png";
 
+import { useRef } from "react";
+
 
 function Kidney() {
+
+  const gallcontent7ref = useRef(null);
+
+  const scrollToGallcontent7 =()=>{
+   gallcontent7ref.current.scrollIntoView({behaviour:'smooth'});
+  }
+
   return (
     <div className ={styles.kidneypage}>
 
-      <div className={styles.navappointment}>
+      <div className={styles.navappointment} onClick={scrollToGallcontent7}>
         <p id={styles.navappointmenttext1}>BOOK APPOINTMENT </p>
         <p id={styles.navappointmenticon}>
           <FaArrowRight />
@@ -156,7 +165,7 @@ function Kidney() {
         </p>
       </div>
 
-      <div className={styles.kindneycontent6}>
+      <div ref={gallcontent7ref} className={styles.kindneycontent6}>
         <p id={styles.kindneycontent6text1}>Book free consultation</p>
 
         <input type="text" id={styles.kindneycontent6text2} />

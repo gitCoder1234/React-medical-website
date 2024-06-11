@@ -1,6 +1,7 @@
 import styles from "./Overview.module.css";
 import { Link } from "react-router-dom";
 import { FaGreaterThan } from "react-icons/fa6";
+import { useState } from "react";
 
 import image1 from "../../../../public/logo.png";
 import image2 from "../../../../public/overview-img2.jpeg";
@@ -21,10 +22,27 @@ import image15 from "../../../../public/overview-img11.png";
 import image16 from "../../../../public/overview-img12.png";
 
 
+import image17 from "../../../../public/overview-img11.png";
+import image18 from "../../../../public/myacc-img1.png";
+import image19 from "../../../../public/myacc-img2.png";
+import image20 from "../../../../public/myacc-img3.png";
+import image21 from "../../../../public/myacc-img4.png";
+
+
+import { TiTick } from "react-icons/ti";
 
 import { FaChevronDown } from "react-icons/fa";
 
 function Overview() {
+
+  const [myaccount, setmyaccount] = useState(false);
+
+
+  const toggleaccount = () => {
+    setmyaccount(!myaccount);
+  };
+
+
   return (
     <>
       <div className={styles.overLogo}>
@@ -36,10 +54,77 @@ function Overview() {
         <p id={styles.overdemoparttext1}>My Demo Benefits</p>
         <p id={styles.overdemoparttext2}>Personal Account</p>
 
-        <span>
+        <span onClick={toggleaccount}>
           <FaChevronDown />{" "}
         </span>
       </div>
+
+
+      {myaccount && (
+        <div className={styles.account}>
+          <p id={styles.accounttext1}>Switch Benefits</p>
+
+          <div className={styles.accountpart1}>
+            <p id={styles.accountpart1text1}>D</p>
+            <p id={styles.accountpart1text2}>My Demo Benefits</p>
+            <p id={styles.accountpart1text3}>Personal Account</p>
+
+            <span>
+              <TiTick />
+            </span>
+          </div>
+
+          <p id={styles.accountline}></p>
+
+          <p id={styles.accounttext2}>Account</p>
+
+          <div className={styles.accountpart2}>
+            <p id={styles.accountpart2text1}>Link your </p>
+            <p id={styles.accountpart2text2}>Corporate and </p>
+            <p id={styles.accountpart2text3}> Insurance accounts </p>
+            <img src={image17} alt="" />
+          </div>
+
+          <div className={styles.accountpart3}>
+            <img src={image18} alt="" />
+            <p>Track Appointment</p>
+            <span>
+              <FaChevronDown />
+            </span>
+          </div>
+
+          <div className={styles.accountpart4}>
+            <img src={image19} alt="" />
+            <p>All Transaction</p>
+            <span>
+              <FaChevronDown />
+            </span>
+          </div>
+
+          <div className={styles.accountpart5}>
+            <img src={image20} alt="" />
+            <p>Profile</p>
+            <span>
+              <FaChevronDown />
+            </span>
+          </div>
+          <div className={styles.accountpart6}>
+            <img src={image21} alt="" />
+            <p>Sign Out</p>
+            <span>
+              <FaChevronDown />
+            </span>
+          </div>
+        </div>
+      )}
+
+
+      {myaccount && (
+        <div 
+        className={styles.overoverlay}
+        onClick={toggleaccount}></div>
+      )}
+
 
       <div className={styles.overviewcontent1}>
         <div className={styles.overviewcontent1part1}>
