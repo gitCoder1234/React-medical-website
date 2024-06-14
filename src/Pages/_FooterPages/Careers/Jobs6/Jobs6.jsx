@@ -1,11 +1,32 @@
 import styles from "./Jobs6.module.css";
 
 import { Link } from "react-router-dom";
+import { useState } from "react";
+
 
 import image1 from "../../../../../public/logo.png";
 import image2 from "../../../../../public/profileLogo.png";
+import image14 from "../../../../../public/overview-img11.png";
+import image15 from "../../../../../public/myacc-img1.png";
+import image16 from "../../../../../public/myacc-img2.png";
+import image17 from "../../../../../public/myacc-img3.png";
+import image18 from "../../../../../public/myacc-img4.png";
+
+
+import { TiTick } from "react-icons/ti";
+import { FaChevronDown } from "react-icons/fa";
 
 function Jobs6() {
+  
+  const [myaccount, setmyaccount] = useState(false);
+
+
+
+  const toggleaccount = () => {
+    setmyaccount(!myaccount);
+  };
+
+
   return (
     <>
       
@@ -17,7 +38,75 @@ function Jobs6() {
           <img src={image2} alt="" />
           <p id={styles.jobs6demoparttext1}>My Demo Benefits</p>
           <p id={styles.jobs6demoparttext2}>Personal Account</p>
+          <span 
+        onClick={toggleaccount}
+        ><FaChevronDown /> </span> 
         </div>
+
+        {myaccount && (
+        <div className={styles.account}>
+          <p id={styles.accounttext1}>Switch Benefits</p>
+
+          <div className={styles.accountpart1}>
+            <p id={styles.accountpart1text1}>D</p>
+            <p id={styles.accountpart1text2}>My Demo Benefits</p>
+            <p id={styles.accountpart1text3}>Personal Account</p>
+
+            <span>
+              <TiTick />
+            </span>
+          </div>
+
+          <p id={styles.accountline}></p>
+
+          <p id={styles.accounttext2}>Account</p>
+
+          <div className={styles.accountpart2}>
+            <p id={styles.accountpart2text1}>Link your </p>
+            <p id={styles.accountpart2text2}>Corporate and </p>
+            <p id={styles.accountpart2text3}> Insurance accounts </p>
+            <img src={image14} alt="" />
+          </div>
+
+          <div className={styles.accountpart3}>
+            <img src={image15} alt="" />
+            <p>Track Appointment</p>
+            <span>
+              <FaChevronDown />
+            </span>
+          </div>
+
+          <div className={styles.accountpart4}>
+            <img src={image16} alt="" />
+            <p>All Transaction</p>
+            <span>
+              <FaChevronDown />
+            </span>
+          </div>
+
+          <div className={styles.accountpart5}>
+            <img src={image17} alt="" />
+            <p>Profile</p>
+            <span>
+              <FaChevronDown />
+            </span>
+          </div>
+          <div className={styles.accountpart6}>
+            <img src={image18} alt="" />
+            <p>Sign Out</p>
+            <span>
+              <FaChevronDown />
+            </span>
+          </div>
+        </div>
+      )}
+
+
+      {myaccount &&(
+        <div 
+        className={styles.jobs6overlay}
+        onClick={toggleaccount}></div>
+      )}
 
         <div className={styles.jobscontent1}>
           <p id={styles.jobscontent1text1}>Jobs at Demo</p>

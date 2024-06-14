@@ -50,6 +50,238 @@
 
 }
 
+.jobs5demopart span {
+    float: right;
+    font-size: 1.7rem;
+    margin-top: -55px;
+
+    margin-right: -222px;
+    /* margin-right: 0px; */
+}
+
+.account {
+    background-color: white;
+    width: 340px;
+    height: 501px;
+    padding-top: 20px;
+    border-radius: 15px;
+    z-index: 20;
+    position: absolute;
+    right: 1.8%;
+    top: 2.2%;
+    /* box-shadow: 4px 4px 4px 0px #dcdce9; */
+}
+
+
+#accounttext1 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 3.9px;
+    color: black;
+
+    margin-left: 30px;
+}
+
+.accountpart1 {
+    /* background-color: red; */
+    height: 40px;
+    padding-top: 12px;
+}
+
+#accountpart1text1 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15.89px;
+    text-align: center;
+
+    padding-top: 6px;
+    padding-left: 10px;
+    margin-left: 30px;
+    margin-top: 0px;
+    width: 20px;
+    height: 25px;
+
+    border-radius: 10px;
+
+    background-color: #FFCFCFB8;
+    display: inline-flex;
+}
+
+#accountpart1text2 {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24.2px;
+    color: black;
+    float: right;
+    margin-right: 170px;
+    margin-top: 10px;
+}
+
+
+#accountpart1text3 {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    /* text-align: left; */
+
+    color: black;
+    float: right;
+    margin-right: 168px;
+    margin-top: -48px;
+    display: inline-flex;
+}
+
+
+.accountpart1 span {
+    font-size: 1rem;
+    padding-left: 4px;
+    padding-top: 5px;
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -48px;
+}
+
+#accounttext2 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 10.89px;
+    /* text-align: left; */
+    color: black;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+#accountline {
+    background-color: #0000000D;
+    height: 3px;
+    width: 80%;
+    margin-left: 40px;
+
+}
+
+.accountpart2 {
+    width: 80%;
+    height: 55px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    /* background-color: red; */
+    background-color: #20A0D817;
+    padding-left: 15px;
+}
+
+
+#accountpart2text1,
+#accountpart2text2,
+#accountpart2text3 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1px;
+    display: inline-flex;
+
+}
+
+#accountpart2text2 {
+    padding-left: 8px;
+    font-weight: 600;
+}
+
+#accountpart2text3 {
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+.accountpart2 img {
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -25px;
+
+}
+
+.accountpart3,
+.accountpart4,
+.accountpart5,
+.accountpart6 {
+    width: 75%;
+    height: 45px;
+
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 45px;
+    display: flex;
+    gap: 5px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-bottom: 18px;
+}
+
+.accountpart3 img,
+.accountpart4 img,
+.accountpart5 img,
+.accountpart6 img {
+    width: 22px;
+    height: 22px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.accountpart3 p,
+.accountpart4 p,
+.accountpart5 p,
+.accountpart6 p {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24.2px;
+    margin-top: 5px;
+}
+
+.accountpart3 span,
+.accountpart4 span,
+.accountpart5 span,
+.accountpart6 span {
+    padding-left: 55px;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.accountpart4 span {
+    padding-left: 75px;
+}
+
+.accountpart5 span {
+    padding-left: 115px;
+}
+
+.accountpart6 span {
+    padding-left: 105px;
+}
+
+
+
+.jobs4overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    /* position: sticky; */
+    top: 0%;
+    background: rgba(72, 70, 70, 0.5);
+    z-index: 15;
+
+}
+
 
 .jobscontent1 {
     background-image: url("../../../../../public/job-bgimg.png");

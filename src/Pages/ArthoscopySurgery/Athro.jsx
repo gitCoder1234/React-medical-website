@@ -109,7 +109,7 @@ function Athro() {
             </span>
           </div>
           <div className={styles.accountpart6}>
-            <img src={image15} alt="" />
+            <img src={image18} alt="" />
             <p>Sign Out</p>
             <span>
               <FaChevronDown />
