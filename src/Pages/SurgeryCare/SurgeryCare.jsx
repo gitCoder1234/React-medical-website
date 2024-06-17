@@ -3,7 +3,6 @@ import { SlArrowDown } from "react-icons/sl";
 import { PiPhoneCallFill } from "react-icons/pi";
 import { FaUserDoctor } from "react-icons/fa6";
 import { FaUserNurse } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import Footer from "../Components/Footer";
 
 export default function SurgeryCare() {
